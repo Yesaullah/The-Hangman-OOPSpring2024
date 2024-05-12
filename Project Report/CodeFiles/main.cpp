@@ -372,7 +372,7 @@ int main() {
         }
         else if (inAnimal) {
             window.draw(backgroundSprite);
-            Text guessedWordText(guessedWord, font, 70); // Assuming font size 30
+            Text guessedWordText(guessedWord, font, 70); 
             guessedWordText.setPosition(Vector2f(700, 768 / 4 * 2.5));
             window.draw(guessedWordText);
             window.draw(GuessWordText);
@@ -380,7 +380,7 @@ int main() {
         }
         else if (inFruit) {
             window.draw(backgroundSprite);
-            Text guessedWordText(guessedWord, font, 70); // Adjust font size as needed
+            Text guessedWordText(guessedWord, font, 70); 
             guessedWordText.setPosition(Vector2f(700, 768 / 4 * 2.5));
             window.draw(guessedWordText);
             window.draw(GuessWordText);
@@ -388,16 +388,16 @@ int main() {
         }
         else if (inBodyPart) {
             window.draw(backgroundSprite);
-            Text guessedWordText(guessedWord, font, 70); // Adjust font size as needed
+            Text guessedWordText(guessedWord, font, 70); 
             guessedWordText.setPosition(Vector2f(700, 768 / 4 * 2.5));
             window.draw(guessedWordText);
             window.draw(GuessWordText);
             window.draw(TotalAttemptsText);
         }
-        // Repeat the same pattern for the medium categories
+        // Repeating the same pattern for the medium categories
         else if (inMovie) {
             window.draw(backgroundSprite);
-            Text guessedWordText(guessedWord, font, 70); // Adjust font size as needed
+            Text guessedWordText(guessedWord, font, 70); 
             guessedWordText.setPosition(Vector2f(700, 768 / 4 * 2.5));
             window.draw(guessedWordText);
             window.draw(GuessWordText);
@@ -405,7 +405,7 @@ int main() {
         }
         else if (inSport) {
             window.draw(backgroundSprite);
-            Text guessedWordText(guessedWord, font, 70); // Adjust font size as needed
+            Text guessedWordText(guessedWord, font, 70); 
             guessedWordText.setPosition(Vector2f(700, 768 / 4 * 2.5));
             window.draw(guessedWordText);
             window.draw(GuessWordText);
@@ -413,16 +413,16 @@ int main() {
         }
         else if (inProfession) {
             window.draw(backgroundSprite);
-            Text guessedWordText(guessedWord, font, 70); // Adjust font size as needed
+            Text guessedWordText(guessedWord, font, 70); 
             guessedWordText.setPosition(Vector2f(700, 768 / 4 * 2.5));
             window.draw(guessedWordText);
             window.draw(GuessWordText);
             window.draw(TotalAttemptsText);
         }
-        // Repeat the same pattern for the hard categories
+        // Repeating the same pattern for the hard categories
         else if (inCountry) {
             window.draw(backgroundSprite);
-            Text guessedWordText(guessedWord, font, 70); // Adjust font size as needed
+            Text guessedWordText(guessedWord, font, 70); 
             guessedWordText.setPosition(Vector2f(700, 768 / 4 * 2.5));
             window.draw(guessedWordText);
             window.draw(GuessWordText);
@@ -430,7 +430,7 @@ int main() {
         }
         else if (inCity) {
             window.draw(backgroundSprite);
-            Text guessedWordText(guessedWord, font, 70); // Adjust font size as needed
+            Text guessedWordText(guessedWord, font, 70); 
             guessedWordText.setPosition(Vector2f(700, 768 / 4 * 2.5));
             window.draw(guessedWordText);
             window.draw(GuessWordText);
@@ -438,7 +438,7 @@ int main() {
         }
         else if (inHistFig) {
             window.draw(backgroundSprite);
-            Text guessedWordText(guessedWord, font, 70); // Adjust font size as needed
+            Text guessedWordText(guessedWord, font, 70);
             guessedWordText.setPosition(Vector2f(700, 768 / 4 * 2.5));
             window.draw(guessedWordText);
             window.draw(GuessWordText);
